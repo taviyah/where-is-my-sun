@@ -1,0 +1,21 @@
+# Build output and IDE files
+*.iml
+.gradle/
+.kotlin/
+build/
+/captures
+.externalNativeBuild
+.cxx
+.idea/
+
+# Never commit: machine paths, keys, signing keys, app builds
+local.properties
+.env
+*.jks
+*.keystore
+*.apk
+*.aab
+
+# Notes for AI coding tools (kept private)
+AGENTS.md
+CLAUDE.md
